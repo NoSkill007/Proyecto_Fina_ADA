@@ -149,7 +149,7 @@ class Buscador:
 
 def generar_estudiantes(cantidad):
     """
-    Crea una lista aleatoria de estudiantes con índices dentro de la escala UTP.
+    Crea una lista aleatoria de estudiantes con índices dentro de la escala 0 Y 3.
     Se usa esta generación automática para poder medir rendimiento
     sin depender de entradas manuales.
     """
@@ -268,10 +268,6 @@ class Validador:
 
     @staticmethod
     def graficar(x, y_sel, y_mer, y_lin, y_bin):
-        """
-        Grafica el rendimiento comparativo en un estilo moderno
-        para facilitar interpretación visual.
-        """
         plt.style.use("ggplot")
 
         fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))
