@@ -3,7 +3,6 @@ import time
 import tracemalloc
 import matplotlib.pyplot as plt
 
-
 # ============================================================
 # 1. MODELO DE DATOS
 # ============================================================
